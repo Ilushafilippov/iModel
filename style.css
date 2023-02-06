@@ -1,0 +1,413 @@
+.header{
+	width: 100%;
+	height: 900px;
+	background-color: white;
+
+}
+#first{
+position: absolute;
+
+left: 47%;
+
+
+}
+.knop{
+	    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-around;
+}
+.knop1{
+background-color: white;
+    width: 160px;
+    height: 50px;
+    font-size: 30px;
+    position: relative;
+    display: flex;
+    color: black;
+    text-align: center;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+     border-width: thick;
+     box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.5); 
+}
+.knop1:hover{
+	
+	
+	background-color: black;
+	color: white;
+}
+.knop2{
+	background-color: white;
+    width: 160px;
+    height: 50px;
+    font-size: 30px;
+    position: relative;
+    display: flex;
+    color: black;
+    text-align: center;
+    border-width: thick;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+ box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.5); 
+}
+.knop2:hover{
+
+	background-color: black;
+	color: white;}
+#second{
+position: absolute;
+top: 9%;
+opacity: 0,1;}
+
+.men1{
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	
+	left: 10%;
+	top: 22%;
+	text-align: left;
+}
+
+
+.abb{
+	width: 250px;
+	height: 100px;
+	background-image: url(ab.jpg);
+	position: sticky;
+	left: 43%;
+	
+}
+.nnn{
+	display: none;
+}
+
+
+.abtext{
+	width: 46%;
+	height: 250px;
+	left: 28%;
+	text-align: center;
+	position: sticky;
+	top: 25%;
+	
+}
+.about{
+	width: 100%;
+	height: 600px;
+	background-color: white;
+	
+}
+.pocab{
+	height: 400px;
+}
+progress {
+ width: 400px;
+  border: 3px;
+  height: 18px;
+  border-radius: 9px;
+  color: red;
+  position: sticky;
+  }
+@font-face {
+	font-family: 'Font1'; 
+	src: url(Perpetua.ttf); 
+}
+
+@font-face {
+	font-family: 'Font2'; 
+	src: url(second.ttf); 
+}
+@font-face {
+	font-family: 'Font3'; 
+	src: url(opis1.otf); 
+}
+progress::-webkit-progress-bar {
+  background-color: #DBD7D2;
+}
+
+progress::-webkit-progress-value {
+  background-color: black;
+}
+progress::-moz-progress-bar {
+background: #e0a;}
+.mys{
+	width: 250px;
+	height: 100px;
+	background-image: url(my1.jpg);
+	position: sticky;
+	left: 43%;
+	margin-top: 15%;
+}
+.mysk{
+	width: 100%;
+	height: 800px;
+	background-color:white;
+}
+.wht{
+	width: 100%;
+	height: 700px;
+	background-color: black;
+}
+.fotopr{
+	width: 40%;
+	height: 600px;
+	background-color: red;
+	position: relative;
+	left: 60%;
+
+
+}
+body{
+	 margin: 0;
+    padding: 0;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 38px;
+  
+}
+nav{
+	position: relative;
+    left: 63%;
+    width: 35%;
+    top: 30px;
+}
+nav li {
+  flex: 1;
+  display: flex;
+}
+.name{
+	position: absolute;
+	font-size: 40px;
+	font-family: Font1;
+	font-weight:bold;
+	left: 5%;
+	top: 4%;
+}
+.textilya{font-family: Font2;
+    color: grey;
+    font-size: 28px;
+    margin-top: 0;
+
+	}
+a {
+  text-decoration: none;
+}
+h1{
+	font-family: Font2;
+}
+h2{
+	font-family: Font2;
+    font-weight: bold;
+    font-size: 63px;
+    margin: 0;
+}
+h7{
+	font-family: Font3 ;
+	font-size: 25px;
+
+}
+nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  text-transform: uppercase;
+  color: black;
+  font-size: 18px;
+  padding: 0 2px;
+      text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+
+
+
+}
+#skk{
+	    display: flex;
+    flex-direction: column;
+	left: 7%;
+	width: 90%;
+	top: 15%;
+}
+nav a:hover {
+background-size: 100% 2px;
+}
+li{
+	width: 20px;
+}
+#sks{
+	top: 15%;
+	
+}
+
+input{
+	width: 300px;
+	height: 30px;
+	border-radius: 10px;
+}
+form{
+	position: relative;
+top: 15%;
+background-color:white;
+width:30%;
+height: 70%;
+margin:0 auto;
+border-radius: 10px;
+padding:15px;
+color: black;
+
+
+	text-align: center;
+	
+	background-color: white;
+
+}
+h4{
+	font-size: 30px;
+	margin: auto;
+}
+textarea {width: 300px;
+	height: 50px;
+
+}
+.form1{
+	background-color: white;
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+    position: relative;
+    display: flex;
+    color: black;
+    text-align: center;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+     border-width: thick;
+     box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.5); 
+     border-radius: 10px;
+}
+.form2{
+	background-color: white;
+    width: 130px;
+    height: 40px;
+    left: 5%;
+    font-size: 18px;
+    position: relative;
+    display: flex;
+    color: black;
+    text-align: center;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+     border-width: thick;
+     box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.5); 
+     border-radius: 10px;
+}
+.form1:hover{
+	background-color: black;
+	color: white;
+
+}
+.form2:hover{
+	background-color: black;
+	color: white;
+
+}
+.knopka{
+	margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+
+}
+.texti{
+	border-radius: 10px;
+	height: 130px;
+}
+.footer{
+	display: flex;
+	width: 100%;
+height: 80px;
+background-color: white;
+    justify-content: space-around;
+}
+.vk{
+	background-image: url(vk.png);
+    width: 80px;
+    height: 80px;
+    
+    font-size: 18px;
+    position: relative;
+    display: flex;
+    color: black;
+    text-align: center;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+     border-width: thick;
+     
+}
+.inst{
+	background-image: url(inst.png);
+    width: 80px;
+    height: 80px;
+    
+    font-size: 18px;
+    position: relative;
+    display: flex;
+    color: black;
+    text-align: center;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+     border-width: thick;
+    
+}
+.telega{
+	background-image: url(tg.png);
+    width: 80px;
+    height: 80px;
+  
+    font-size: 18px;
+    position: relative;
+    display: flex;
+    color: black;
+    text-align: center;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+     border-width: thick;
+     
+}
